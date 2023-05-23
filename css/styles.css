@@ -1652,11 +1652,11 @@ img {
   color: var(--primary-text-color);
 }
 
-/* @media only screen and (min-width: 320px) and (max-width: 427.9px) {
+@media only screen and (min-width: 320px) and (max-width: 427.9px) {
   .contacts-tel {
-    font-size: 30px;
+    font-weight: 500;
   }
-} */
+}
 
 .mobile-socials {
   display: flex;
@@ -1665,12 +1665,11 @@ img {
   gap: 56px;
 }
 
-/* @media only screen and (min-width: 320px) and (max-width: 427.9px) {
+@media only screen and (min-width: 320px) and (max-width: 427.9px) {
   .mobile-socials {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    gap: 56px;
+    gap: calc((100% - 4 * 40px) / 3);
   }
-} */
+}
